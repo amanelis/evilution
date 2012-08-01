@@ -7,6 +7,13 @@ module Evolution
     attr_accessor :tournamentSize
     attr_accessor :elitism
     
+    #
+    # static variables
+    UNIFORM_RATE = 0.5;
+    MUTATION_RATE = 0.015;
+    TOURNAMENT_SIZE = 5;
+    ELITISM = true;
+    
     ## initialize
     # @param: 
     # @return:
@@ -93,23 +100,10 @@ module Evolution
           tournamentSize.saveIndividual i, population.getIndividual(randomId)
         end
         
+        # Individual fittest = tournament.getFittest();
         tournamentSize.getFittest
       end
       
     end # def class << self
   end # class Algorithm
 end # module Evolution
-
-
-
-
-
-
-
-
-
-
-
-
-
-
