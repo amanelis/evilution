@@ -50,6 +50,15 @@ module Evolution
       @genes[index]
     end
     
+    ## setGene
+    # @param: Integer[index]
+    # @param: Ingeter[gene]
+    # @return:
+    # Sets an index value to a new gene
+    def setGene index, gene
+      @genes[index] = gene
+    end
+    
     ## getFitness
     # @param:
     # @return:
