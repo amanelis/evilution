@@ -4,3 +4,11 @@ The goal of this repository project is to simulate a growth in population using 
 
 ## Implementation
 There is the original Java implementation. Making this for a Ruby package.
+
+### Java
+To run in Java, follow the below commands:
+
+	cd lib/java/simpleGa
+	javac *.java
+	java GA
+
