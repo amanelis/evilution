@@ -13,4 +13,6 @@ To run in Java, follow the below commands:
 	java GA
 
 
-# Docs: http://www.theprojectspot.com/tutorial-post/creating-a-genetic-algorithm-for-beginners/3
+# Docs: 
+
+http://www.theprojectspot.com/tutorial-post/creating-a-genetic-algorithm-for-beginners/3
